@@ -1,6 +1,6 @@
 import logo from '../assets/Myme logo.png'
-import patternl from '../assets/patern.png'
-import patternr from '../assets/pattern r.png'
+import partern from '../assets/patern.png'
+import pattirn from '../assets/partin.png'
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineClose } from 'react-icons/md';
@@ -55,7 +55,7 @@ const Head = () => {
         {/* Hero section */}
         <div className="flex flex-col-reverse  w-full md:flex-row md:gap-5 ">
                 <div className='hidden md:flex h-1/2 pt-96'>
-                  <img src={patternl} alt="patternl" />
+                  <img src={partern} alt="partern" />
                 </div>
             <div className="flex-col w-full pl-5 pt-16  md:w-1/2 md:pl-0  md:pt-28 lg:pl-16  lg:pt-32">
                 <a href="" className='bg-green-500 p-2 text-white rounded-2xl'>Home</a>
@@ -117,7 +117,7 @@ const Head = () => {
             
             </div>
              <div className='hidden pt-14 md:flex h-1/2 justify-end'>
-                  <img src={patternr} alt="patternr" />
+                  <img src={pattirn} alt="pattirn" />
                 </div>
         </div>
         </>
