@@ -1,5 +1,5 @@
 import logo from '../assets/Myme logo.png'
-import patternl from '../assets/patternl.png'
+import patternl from '../assets/patern.png'
 import patternr from '../assets/pattern r.png'
 import { useState } from 'react'
 import { GiHamburgerMenu } from 'react-icons/gi';
