@@ -42,9 +42,9 @@ const Footer =() =>{
                 <div className="flex-col">
                     <div className='flex flex-col md:hidden lg:flex lg:flex-col'>
                 <header className="text-md pb-5 text-white font-semibold capitalize">news letter</header>
-                <div className="flex gap-3">
-                    <input type="text" name="" id="" placeholder="user@anymail.com" className="border-collapse outline-none p-2 bg-white rounded"/>
-                    <a href="" className="bg-green-500 p-2 text-white rounded hover:opacity-50">Subscribe</a>
+                <div className="flex flex-col w-full lg:flex lg:flex-row gap-3">
+                    <input type="text" name="" id="" placeholder="user@anymail.com" className="w-80 border-collapse outline-none p-2 bg-white rounded"/>
+                    <a href="" className="bg-green-500 w-28 text-center p-2 text-white rounded hover:opacity-50">Subscribe</a>
                 </div>
                 <div className="flex pt-5 gap-3">
                     <a href=''><AiOutlineInstagram className='text-xl text-green-500' /></a>
