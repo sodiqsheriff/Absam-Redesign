@@ -108,8 +108,8 @@ const Head = () => {
                     </div>
                   </div>
 
-                    <div className="w-full pt-3">
-                        <a href="" className='w-full bg-green-500 text-center text-white py-3 md:px-24 lg:px-32  rounded'>Search</a>
+                    <div className="w-full text-center bg-green-500 py-2 rounded">
+                        <a href="" className=' text-white'>Search</a>
                     </div>
                 </div>
                
