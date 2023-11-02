@@ -12,7 +12,7 @@ const Head = () => {
        setIsOpen(!isOpen);
     };
     return (
-        <>
+        <div className='overflow-hidden md:overflow-hidden'>
         <div className="flex justify-between items-center px-5 text-white md:px-8 lg:px-16 pt-5 capitalize">
             <div className="flex  ">
                 <img src={logo} alt='logo' />
@@ -120,7 +120,7 @@ const Head = () => {
                   <img src={pattirn} alt="pattirn" />
                 </div>
         </div>
-        </>
+        </div>
 
     )
 }
