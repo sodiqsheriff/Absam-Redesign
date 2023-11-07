@@ -5,7 +5,7 @@ import {FiFacebook, FiLinkedin} from 'react-icons/fi'
 const Footer =() =>{
     return(
         <div className='fixed-bottom bottom-0 mb-0 pb-0 h-full  w-full'>
-         <div className="flex flex-col w-full px-5 pt-48 md:flex-row md:px-8 md:gap-36 md:w-full md:pt-16 lg:flex-row lg:px-20 lg:pt-36 lg:gap-36 ">
+         <div className="flex flex-col w-full px-5 pt-48 md:flex-row md:px-20 md:gap-36 md:w-full md:pt-16 lg:flex-row lg:px-20 lg:pt-36 lg:gap-36 ">
             <div className="flex-col">
                 <h1 className="text-lg text-white font-semibold pt-5">Contact us</h1>
                 <h1 className="flex items-center text-sm md:flex md:text-md gap-2 pt-3">
