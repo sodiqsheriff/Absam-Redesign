@@ -62,7 +62,7 @@ const Footer =() =>{
             </div>
             
          </div>
-         <div className='hidden md:flex flex-col pt-5 px-8 lg:hidden'>
+         <div className='hidden md:flex flex-col pt-5 px-24 lg:hidden'>
                 <header className="text-md pb-5 text-white font-semibold capitalize">news letter</header>
                 <div className="flex gap-3">
                     <input type="text" name="" id="" placeholder="user@anymail.com" className="border-collapse outline-none p-2 bg-white rounded"/>
